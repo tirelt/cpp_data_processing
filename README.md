@@ -42,3 +42,4 @@ make -j$(nproc)
 ```
 `libaws-cpp-sdk-core.a` can be found in `src/aws-cpp-sdk-core`.
 
+cmake ../../   -DBUILD_ONLY="s3"  -DBUILD_SHARED_LIBS=OFF  -DCMAKE_BUILD_TYPE=Release
